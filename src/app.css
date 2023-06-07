@@ -3,7 +3,7 @@
 	--color-bg: #fbf2e4;
 	--color-bg-shade: #ddd5c9;
 	--color-accent: #2b2d36;
-	--color-primary: #5d6f58;
+	--color-primary: #f2966e;
 	--color-secondary: #f2eeef;
 
 	@media (prefers-color-scheme: dark) {
@@ -11,7 +11,7 @@
 		--color-bg: #0d0d0d;
 		--color-bg-shade: #252525;
 		--color-accent: #2b2d36;
-		--color-primary: #5d6f58;
+		--color-primary: #f2966e;
 		--color-secondary: #f2eeef;
 	}
 }

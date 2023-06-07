@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 </script>
 
 <div class="app">
@@ -9,6 +10,11 @@
 	<nav class="tab-nav">
 		<a href="" class="tab-button"><span class="material-symbols-rounded">home</span></a>
 		<a href="" class="tab-button"><span class="material-symbols-rounded">explore</span></a>
+		<a href="/user_library" class="tab-button"
+			><span class="material-symbols-rounded" class:active={$page.url.pathname === '/user_library'}
+				>local_library</span
+			></a
+		>
 		<a href="" class="tab-button"><span class="material-symbols-rounded">more_horiz</span></a>
 	</nav>
 </div>
@@ -38,5 +44,13 @@
 	.tab-button {
 		border-radius: 15px;
 		padding: 10px 25px;
+
+		& span {
+			color: var(--color-text);
+
+			&.active {
+				color: var(--color-primary);
+			}
+		}
 	}
 </style>
