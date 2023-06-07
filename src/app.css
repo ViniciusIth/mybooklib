@@ -1,0 +1,68 @@
+:root {
+	--color-text: #030302;
+	--color-bg: #fbf2e4;
+	--color-bg-shade: #ddd5c9;
+	--color-accent: #2b2d36;
+	--color-primary: #5d6f58;
+	--color-secondary: #f2eeef;
+}
+
+:root.dark {
+	--color-text: #f2f2f2;
+	--color-bg: #0d0d0d;
+	--color-bg-shade: #252525;
+	--color-accent: #2b2d36;
+	--color-primary: #5d6f58;
+	--color-secondary: #f2eeef;
+}
+
+.primary {
+	background-color: var(--color-primary);
+}
+
+.secondary {
+	background-color: var(--color-secondary);
+}
+
+.accent {
+	background-color: var(--color-accent);
+}
+
+body {
+	background-color: var(--color-bg);
+  color: var(--color-text);
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:active, button:hover, button:active {
+	transform: translateY(-1px);
+}

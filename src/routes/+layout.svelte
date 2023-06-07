@@ -1,5 +1,4 @@
 <script>
-	import './styles.css';
 </script>
 
 <div class="app">
@@ -9,6 +8,9 @@
 </div>
 
 <style>
+	@import '../app.css';
+	@import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded';
+
 	.app {
 		display: flex;
 		flex-direction: column;
