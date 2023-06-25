@@ -8,14 +8,14 @@
 	</main>
 
 	<nav class="tab-nav">
-		<a href="" class="tab-button"><span class="material-symbols-rounded">home</span></a>
-		<a href="" class="tab-button"><span class="material-symbols-rounded">explore</span></a>
-		<a href="/user_library" class="tab-button"
-			><span class="material-symbols-rounded" class:active={$page.url.pathname === '/user_library'}
+		<a href="/" class="tab-button"><span class="material-symbols-rounded">home</span></a>
+		<a href="explore" class="tab-button"><span class="material-symbols-rounded">explore</span></a>
+		<a href="/user_profile" class="tab-button"
+			><span class="material-symbols-rounded" class:active={$page.url.pathname === '/user_profile'}
 				>local_library</span
 			></a
 		>
-		<a href="" class="tab-button"><span class="material-symbols-rounded">more_horiz</span></a>
+		<a href="more_options" class="tab-button"><span class="material-symbols-rounded">more_horiz</span></a>
 	</nav>
 </div>
 
